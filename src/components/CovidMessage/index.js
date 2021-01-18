@@ -6,7 +6,7 @@ import styles from "./styles.js";
 const CovidMessage = (props) => {
     return (
         <View style={styles.container}>
-            <Text>Travel only if necessary</Text>
+            <Text style={styles.title}>Travel only if necessary</Text>
             <Text>
                 Travel only if necessary , only to upgrade the version and the bing one
                 traval
