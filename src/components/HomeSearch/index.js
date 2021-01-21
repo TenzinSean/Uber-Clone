@@ -24,7 +24,15 @@ const HomeSearch = (props) => {
 
             {/* Previous conversation */}
 
-
+            <View style={styles.row}>
+                <View style={styles.iconContainer}>
+                    <AntDesign name={'clockcircle'} size={16} color={'#535353'} />
+                </View>
+            </View>
+            
+            <Text style={styles.destinationText}>
+                Spin NightClub
+            </Text>
             {/* later conversation */}
         </View>
     );
